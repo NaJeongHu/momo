@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">해협</string>
+    <string name="server_client_id">212698282393-li15heateqohfg0llgfikfv3j6flj8pq.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">가입을 환영합니다!\n따뜻한 해협을 만들어주세요</string>
+</resources>

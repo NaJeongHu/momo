@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.login.LoginActivity"
+    android:clipToOutline="true"
+    android:background="@drawable/some_id">
+
+    <ImageView
+        android:layout_width="163dp"
+        android:layout_height="163dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/custom_cardview_shape_nofill"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:met_hideUnderline="true"
+            android:background="@null"
+            android:fontFamily="@font/applesdgothicneom"
+            android:layout_marginStart="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="24dp"
+            android:textSize="14sp"
+            android:hint="이메일 주소 또는 휴대폰 번호"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="382dp"
+        android:background="@drawable/custom_cardview_shape_nofill"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:met_hideUnderline="true"
+            android:background="@null"
+            android:fontFamily="@font/applesdgothicneom"
+            android:layout_marginStart="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="24dp"
+            android:textSize="14sp"
+            android:hint="비밀번호"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="479dp"
+        android:background="@drawable/custom_cardview_shape_fill"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="로그인"
+            android:gravity="center"
+            android:fontFamily="@font/applesdgothicneom"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sns_"
+        android:layout_width="84dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="708dp"
+        android:text="SNS 로그인"
+        android:fontFamily="@font/applesdgothicneob"
+        android:textSize="18sp"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/sign_in_button"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="78.25dp"
+        android:layout_marginBottom="101.25dp"
+        android:background="@drawable/icon_google" />
+
+    <ImageView
+        android:layout_width="33.17dp"
+        android:layout_height="33.99dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="190.91dp"
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/icon_instagram" />
+
+    <ImageView
+        android:layout_width="18.19dp"
+        android:layout_height="31.94dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="311.32dp"
+        android:layout_marginBottom="101.03dp"
+        android:background="@drawable/icon_facebook" />
+
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="170dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:text="무엇을 도와드릴까요?"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/applesdgothicneom"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/union"
+        android:layout_width="12.21dp"
+        android:layout_height="12.21dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="28.64dp"
+        android:layout_marginTop="35.64dp"
+        android:background="@drawable/icon_x"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="372dp"
+        android:layout_height="1.5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="96dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/light_gray" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="19.78dp"
+        android:layout_height="19.81dp"
+        android:src="@drawable/icon_check"
+        android:layout_marginTop="129.09dp"
+        android:layout_marginLeft="25.11dp"/>
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="18dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="무거운 짐을 옮기고 싶어요"
+        android:gravity="center_vertical"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="54dp"
+        android:fontFamily="@font/applesdgothicneom"/>
+
+    <ImageView
+        android:layout_width="19.78dp"
+        android:layout_height="19.81dp"
+        android:src="@drawable/icon_check"
+        android:layout_marginTop="164.09dp"
+        android:layout_marginLeft="25.11dp"/>
+
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="18dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="이 물건 좀 사다주세요"
+        android:gravity="center_vertical"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="54dp"
+        android:fontFamily="@font/applesdgothicneom"/>
+
+    <ImageView
+        android:layout_width="19.78dp"
+        android:layout_height="19.81dp"
+        android:src="@drawable/icon_check"
+        android:layout_marginTop="199.09dp"
+        android:layout_marginLeft="25.11dp"/>
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="18dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="횡단보도를 건너고 싶어요"
+        android:gravity="center_vertical"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="54dp"
+        android:fontFamily="@font/applesdgothicneom"/>
+
+    <ImageView
+        android:id="@+id/iv_forhelpee_1"
+        android:layout_width="19.78dp"
+        android:layout_height="19.81dp"
+        android:src="@drawable/icon_check"
+        android:layout_marginTop="234.09dp"
+        android:layout_marginLeft="25.11dp"/>
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="18dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="병원에 데려다 주세요"
+        android:gravity="center_vertical"
+        android:layout_marginTop="236dp"
+        android:layout_marginLeft="54dp"
+        android:fontFamily="@font/applesdgothicneom"/>
+
+    <ImageView
+        android:layout_width="19.78dp"
+        android:layout_height="19.81dp"
+        android:src="@drawable/icon_check"
+        android:layout_marginTop="269.09dp"
+        android:layout_marginLeft="25.11dp"/>
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="18dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="직접입력"
+        android:gravity="center_vertical"
+        android:layout_marginTop="272dp"
+        android:layout_marginLeft="54dp"
+        android:fontFamily="@font/applesdgothicneom"/>
+
+    <LinearLayout
+        android:id="@+id/ll_gonext"
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="347dp"
+        android:background="@drawable/custom_cardview_shape_fill"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="다음"
+            android:gravity="center"
+            android:fontFamily="@font/applesdgothicneom"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "212698282393",
+    "project_id": "momo-340711",
+    "storage_bucket": "momo-340711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212698282393:android:5f23b09642f94f89723b08",
+        "android_client_info": {
+          "package_name": "com.uhackathon.momo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212698282393-3t832tg5lfsjsivfknd6s5k0o3f23hmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uhackathon.momo",
+            "certificate_hash": "6822731507e27b817eac32a14714c894ef13ebc6"
+          }
+        },
+        {
+          "client_id": "212698282393-li15heateqohfg0llgfikfv3j6flj8pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsThiINALB7acglEnLhgOvGL2NsbjCPXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212698282393-li15heateqohfg0llgfikfv3j6flj8pq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

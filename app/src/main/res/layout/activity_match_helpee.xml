@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/violet_color"
+    tools:context=".ui.matchhelpee.MatchHelpeeActivity">
+
+    <ImageView
+        android:layout_width="49.51dp"
+        android:layout_height="44.98dp"
+        android:src="@drawable/icon_match_hand"
+        android:layout_marginLeft="181.24dp"
+        android:layout_marginTop="72.5dp"/>
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="138dp"
+        android:text="김해협 헬퍼님과 매칭이 되었습니다!\n2분 이내로 도착 예정입니다."
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:fontFamily="@font/applesdgothicneom" />
+
+    <RelativeLayout
+        android:layout_width="372dp"
+        android:layout_height="306dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="233dp"
+        android:orientation="vertical"
+        android:background="@drawable/custom_cardview_shape_match_violet">
+
+        <ImageView
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:src="@drawable/icon_per4"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="162dp"
+            android:layout_marginLeft="133dp"
+            android:text="김해협"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/applesdgothicneob"/>
+
+        <LinearLayout
+            android:id="@+id/ll_helpme"
+            android:layout_width="49dp"
+            android:layout_height="22dp"
+            android:background="@drawable/custom_floatingbutton"
+            android:layout_gravity="bottom|right"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="165dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="헬퍼"
+                android:textSize="12sp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="성별"
+            android:textSize="12sp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="223dp"
+            android:fontFamily="@font/applesdgothicneob"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="13dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="여"
+            android:textSize="14sp"
+            android:layout_marginLeft="86dp"
+            android:layout_marginTop="255dp"
+            android:fontFamily="@font/applesdgothicneom"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="1.2dp"
+            android:layout_height="17.2dp"
+            android:background="@color/black"
+            android:layout_marginTop="224dp"
+            android:layout_marginLeft="137dp"/>
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="나이"
+            android:textSize="12sp"
+            android:layout_marginLeft="174dp"
+            android:layout_marginTop="223dp"
+            android:fontFamily="@font/applesdgothicneob"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="39dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="20~35"
+            android:textSize="14sp"
+            android:layout_marginLeft="167dp"
+            android:layout_marginTop="255dp"
+            android:fontFamily="@font/applesdgothicneom"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="1.2dp"
+            android:layout_height="17.2dp"
+            android:background="@color/black"
+            android:layout_marginTop="224dp"
+            android:layout_marginLeft="236dp"/>
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="추천수"
+            android:textSize="12sp"
+            android:layout_marginLeft="262dp"
+            android:layout_marginTop="223dp"
+            android:fontFamily="@font/applesdgothicneob"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="16dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="34"
+            android:textSize="14sp"
+            android:layout_marginLeft="273dp"
+            android:layout_marginTop="255dp"
+            android:fontFamily="@font/applesdgothicneom"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="144dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="555dp"
+        android:orientation="vertical"
+        android:background="@drawable/custom_cardview_shape_match_violet">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="26dp"
+            android:text="나의 요청사항"
+            android:textColor="@color/white"
+            android:fontFamily="@font/applesdgothicneob"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="26dp"
+            android:text="병원에 데려다 주세요."
+            android:textColor="@color/white"
+            android:fontFamily="@font/applesdgothicneom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gonext"
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="777dp"
+        android:background="@drawable/custom_cardview_shape_nofill_nostroke"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="매칭 취소하기"
+            android:gravity="center"
+            android:fontFamily="@font/applesdgothicneom"
+            android:textSize="18sp"
+            android:textColor="@color/main_color"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

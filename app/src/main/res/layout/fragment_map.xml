@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.main.MapFragment">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.naver.maps.map.MapFragment" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_cardview_shape_nofill_nostroke"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginLeft="27dp"
+            android:textSize="14sp"
+            android:text="도움을 주고 싶은 해협을 검색해보세요"
+            android:fontFamily="@font/applesdgothicneom"/>
+
+        <ImageView
+            android:layout_width="18.85dp"
+            android:layout_height="18.85dp"
+            android:src="@drawable/icon_lens"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginRight="21.44dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_helpme"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_floatingbutton"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="118dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="해협 미"
+            android:textSize="18sp"
+            android:fontFamily="@font/applesdgothicneob"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:background="@drawable/custom_cardview_shape_fill"
+        android:layout_gravity="bottom|left"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="121dp">
+
+        <ImageView
+            android:layout_width="28.67dp"
+            android:layout_height="28.67dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_location"
+            android:layout_marginLeft="12.67dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

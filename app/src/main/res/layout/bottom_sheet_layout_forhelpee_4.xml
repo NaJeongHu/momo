@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/g_"
+        android:layout_width="329dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:text="매칭을 취소하시면 소금 1g이 차감됩니다.\n정말 취소하실건가요?"
+        android:textSize="20sp"
+        android:fontFamily="@font/applesdgothicneoeb"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/union"
+        android:layout_width="12.21dp"
+        android:layout_height="12.21dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="35.64dp"
+        android:layout_marginTop="35.64dp"
+        android:background="@drawable/icon_x" />
+
+    <LinearLayout
+        android:id="@+id/ll_gonext"
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="203dp"
+        android:background="@drawable/custom_cardview_shape_fill"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="매칭 취소하기"
+            android:gravity="center"
+            android:fontFamily="@font/applesdgothicneom"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
